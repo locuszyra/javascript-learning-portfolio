@@ -1,3 +1,9 @@
+// Project: Build a Calculator
+// Learning Resource: freeCodeCamp
+// Topic: JavaScript Fundamentals
+// Description: A function JavaScript activity
+// focused on simple math functions
+
 function calculateSum(num1, num2) {
   return num1 + num2;
 }
