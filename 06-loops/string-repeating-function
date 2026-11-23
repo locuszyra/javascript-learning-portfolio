@@ -1,0 +1,16 @@
+function repeatStringNumTimes(string, number) {
+ if (number <= 0) {
+  return "";
+
+} else {
+let i = 1;
+let repeatedString = "";
+
+do {
+  repeatedString += string;
+    i++;
+  } while (i <= number);
+return repeatedString;
+}}
+
+console.log(repeatStringNumTimes("*",3));
