@@ -1,0 +1,16 @@
+const num = 5;
+function factorialCalculator(num) {
+  let result = 1;
+  i = 1;
+
+do {
+  result = result*i;
+  i++;
+} while (i<= num);
+
+return result;
+
+}
+
+let resultMsg = `Factorial of ${num} is ${re sult}`;
+console.log(resultMsg);
