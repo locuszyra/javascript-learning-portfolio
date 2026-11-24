@@ -1,0 +1,13 @@
+function findLongestWordLength(string) {
+  let words = string.split(" ");
+  let maxLength = 0;
+
+  for (const word of words) {
+   if (word.length>maxLength){
+    maxLength = word.length;
+   }   
+   
+    }
+ return maxLength;  
+}
+console.log(findLongestWordLength("Happy Birthday"));
