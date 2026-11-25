@@ -1,0 +1,9 @@
+function mutation([string, string1]) {
+  for (const char of string1.toLowerCase()) {
+    if (!string.toLowerCase().includes(char)) {
+      return false;
+    }
+  }
+   return true;
+}
+console.log(mutation(["hello", "Hello"]));
